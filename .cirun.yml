@@ -1,0 +1,9 @@
+runners:
+  - name: small-runner
+    cloud: aws
+    instance_type: c5.xlarge
+    machine_image: ami-0c55b159cbfafe1f0
+    region: us-east-1
+    preemptible: false
+    labels:
+      - cirun-small
